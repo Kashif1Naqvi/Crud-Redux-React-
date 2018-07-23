@@ -27,7 +27,7 @@ return (
    placeholder="Enter Post Title" /><br /><br />
    <textarea required rows="5" ref={(input) => this.getMessage = input}
    cols="28" placeholder="Enter Post" /><br /><br />
-   <button>Post</button>
+   <button>Post Now</button>
   </form>
 </div>
 );

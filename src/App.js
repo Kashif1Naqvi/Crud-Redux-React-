@@ -7,8 +7,8 @@ class App extends Component {
 render() {
 return (
 <div className="App">
-  <div className="navbar">
-    <h2 className="center ">Post It</h2>
+  <div className="navbar"  style={{border:"2px solid",backgroundColor:"white"}} >
+    <h2 className="center " style={{backgroundColor:"white",hover:"black"}}>Welcome To DigitalCru </h2>
     </div>
     <PostForm />
     <AllPost />
